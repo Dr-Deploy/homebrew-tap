@@ -1,30 +1,30 @@
 class Drdeploy < Formula
   desc "Post-deploy scanner for shipped websites — leaked keys, broken og:image, exposed .env"
   homepage "https://drdeploy.dev"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Dr-Deploy/drdeploy/releases/download/%40drdeploy%2Fcli%400.1.4/drdeploy-darwin-arm64"
-      sha256 "7a8314b960ba89b6fc6d14dfb20600cc17442bea4785a8fba95f46fc9de98e2b"
+      url "https://github.com/Dr-Deploy/drdeploy/releases/download/%40drdeploy%2Fcli%400.1.5/drdeploy-darwin-arm64"
+      sha256 "1d5c1243f5d7e5d4a86d74e862d6141738ccae8e028f958b44f529b771b1db4f"
     end
     on_intel do
-      url "https://github.com/Dr-Deploy/drdeploy/releases/download/%40drdeploy%2Fcli%400.1.4/drdeploy-darwin-x64"
-      sha256 "e9f59b532ff256aec0b3a4c83f27d1cf55dbed81b95503bb078a97a1239f4a6b"
+      url "https://github.com/Dr-Deploy/drdeploy/releases/download/%40drdeploy%2Fcli%400.1.5/drdeploy-darwin-x64"
+      sha256 "c165e388bb652a21455f1e3d6ed1e42799b8cee0cfb433b58ebf59c06a83f146"
     end
   end
 
   on_linux do
     on_arm do
       on_64_bit do
-        url "https://github.com/Dr-Deploy/drdeploy/releases/download/%40drdeploy%2Fcli%400.1.4/drdeploy-linux-arm64"
-        sha256 "80d0e3f1ceed2ef2b502841ed3138ab2a692a4f33b51cd8d2f73c8967f9f2e00"
+        url "https://github.com/Dr-Deploy/drdeploy/releases/download/%40drdeploy%2Fcli%400.1.5/drdeploy-linux-arm64"
+        sha256 "bc7a43048494cd4785744dac73e68c660fb4dc73a36e8d3b4fa7b3318b0fdf58"
       end
     end
     on_intel do
-      url "https://github.com/Dr-Deploy/drdeploy/releases/download/%40drdeploy%2Fcli%400.1.4/drdeploy-linux-x64"
-      sha256 "a8140ec86ce3a031bdbdc3f1101b9d095a13ddc148c98b32cfe1066edf71d7b6"
+      url "https://github.com/Dr-Deploy/drdeploy/releases/download/%40drdeploy%2Fcli%400.1.5/drdeploy-linux-x64"
+      sha256 "8c92c77f698cf926c86f3d4e090cbfbf4f73317c01dbb3c4785f3fbb6a9a100a"
     end
   end
 
