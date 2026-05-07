@@ -5,7 +5,7 @@ Homebrew formulae for [Dr.Deploy](https://drdeploy.dev) — a live monitor for s
 ## Install
 
 ```bash
-brew install drdeploy/tap/drdeploy
+brew install dr-deploy/tap/drdeploy
 ```
 
 That's it. Brew picks the right macOS or Linux binary for your platform from [the latest GitHub Release](https://github.com/Dr-Deploy/drdeploy/releases).
